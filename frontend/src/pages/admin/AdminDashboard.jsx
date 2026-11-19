@@ -39,7 +39,8 @@ export default function AdminDashboard() {
     loadStats();
   }, []);
 
-  const stats = data?.stats || {};
+  // demoGetAdminStats returns a flat object; live API wraps it under { stats, recentUsers, recentAppointments }
+  const stats = data?.stats || data || {};
   const recentUsers = data?.recentUsers || [];
   const recentAppointments = data?.recentAppointments || [];
 
