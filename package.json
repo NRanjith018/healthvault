@@ -1,0 +1,26 @@
+{
+  "name": "healthvault-project",
+  "version": "1.0.0",
+  "description": "HealthVault – Digital Healthcare Management System",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "healthcare",
+    "digital-health",
+    "doctor-access-control",
+    "medical-records",
+    "prescriptions",
+    "appointments",
+    "react",
+    "vite",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "HealthVault Team",
+  "license": "ISC"
+}
